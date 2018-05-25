@@ -1,0 +1,26 @@
+<ul>
+    {% if site.facebook %}
+    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook }}"><span class="description">Facebook</span></a></li>
+    {% endif %}
+
+    {% if site.linkedin %}
+    <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin }}"><span class="description">LinkedIn</span></a></li>
+    {% endif %}
+    
+    {% if site.vk %}
+    <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk }}"><span class="description">ВКонтакте</span></a></li>
+    {% endif %}
+
+    {% if site.instagram %}
+    <li><a class="fa fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram }}"><span class="description">Instagram</span></a></li>
+    {% endif %}
+
+    {% if site.github %}
+    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github }}"><span class="description">GitHub</span></a></li>
+    {% endif %}
+
+    {% if site.email %}
+    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+    {% endif %}
+
+</ul>

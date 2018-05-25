@@ -1,0 +1,20 @@
+# Theme
+remote_theme: 'epidrome/cover-card'
+
+# Title and tag line
+title: 'Dmitriy Shchetinin'
+description: 'You can follow me on social networks for blog updates.'
+
+# Images
+avatar: 'avatar.jpg'
+background: 'background.jpg'
+favicon: 'favicon.ico'
+
+# Online profiles
+facebook: 'dvschetinin'
+linkedin: 'dschetinin'
+vk: 'dschetinin'
+instagram: 'sdimanik'
+github: 'dshchetinin'
+email: 'd.schetinin@gmail.com'
+
